@@ -10,3 +10,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream" % "2.6.0-M6",
   "com.typesafe.akka" %% "akka-http"   % "10.1.9"
 )
+
+enablePlugins(JavaServerAppPackaging)
+enablePlugins(DockerPlugin)
